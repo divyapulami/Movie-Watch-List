@@ -1,0 +1,64 @@
+main {
+    /* justify-content: center;
+    align-items: center; */
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    background-color: burlywood;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+   text-align: center;
+   background-color:darkkhaki;
+   margin: 0px;
+   padding: 2px;
+}
+
+input {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 500px;
+    padding: 3px;
+}
+
+form  {
+    display: flex;
+    gap: 20px;
+}
+
+#add-btn {
+    color: cornflowerblue;
+    border-color: aqua;
+    width: 300px;
+    padding: 3px;
+    height: 40px;
+}
+#movie-list {
+}
+
+.filter-btn {
+    border-radius: 4px;
+    color:brown;
+}
+
+/* Applied to the <li> when a movie is marked watched */
+.watched {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+/* Applied to whichever filter button is currently active */
+.active-filter {
+  background-color: #1a1a2e;
+  color: white;
+}
+
+/* Applied to cards that don't match the current filter — hides them */
+.filtered-out {
+  display: none;
+}
